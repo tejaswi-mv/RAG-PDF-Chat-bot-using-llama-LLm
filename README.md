@@ -9,3 +9,5 @@ Augment: The user query and retrieved additional context are combined into a pro
 Generate: The retrieval-augmented prompt is then input into the LLM for final processing.
 
 In my experiment, I utilized PDF documents as the external knowledge source. Users can ask questions or make queries based on the context provided in these documents. I employed the HuggingFace model sentence-transformers/multi-qa-MiniLM-L6-cos-v1 for vector embedding and the pre-trained LLM model meta-llama/Llama-2-7b-chat-hf for generating the final results.
+
+![image](https://github.com/user-attachments/assets/008ea903-86f7-4250-bfab-8f0b551158d8)
